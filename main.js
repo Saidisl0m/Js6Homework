@@ -1,36 +1,43 @@
-// 1 mashq
+//  1 masala
 
 
-let arr = ['Ahmad', 'Behruz', 'Aziz', 'Amin'  ]
-function Fn(...name){
-    for(let i = 0; i<=arr.length ; i++){
-        if(name == arr[i]){
-            console.log(`arr ichida ${name} bor`);
-           }else{
 
-           }
-    }
-}
-Fn('Behruz')
+// let input = document.getElementById('inp')
 
-
-// 2 mashq
-
-
-// let arr1 = [8, 17, 5, 7, 34, 3, 6, 25]
-// console.log(arr1);
-// arr1.sort(function (a, b) { return a - b })
-// console.log(`arr1 ichidagi eng kichik son ${arr1[0]}`);
-// console.log(`arr1 ichidagi eng katta son ${arr1.at(-1)}`);
-
-
-// 3 mashq
-
-// let arr1 = [2, 6, 8, -4, 9, 21, -13, -1, 28]
-// let arr2 = []
-// for(let i = 0; i <= arr1.length ; i++){
-//     if(arr1[i] > 0){
-//      arr2.push(arr1[i])
-//     }
+// const pass = ()=>{
+// if(inp.type == 'text'){
+//     inp.type = 'password'
+// }else{
+//     inp.type = 'text'
 // }
-// console.log(arr2);
+// }
+
+
+
+
+// 2 masala 
+
+
+
+
+// let text = document.getElementById('text1')
+// let p = document.getElementById('p1')
+// let save = document.getElementById('save')
+
+
+// const save = ()=>{
+// p1.innerText = text.value
+// }
+
+// save.addEventListener('click' , ()=>{
+//     console.log(text.value);
+// })
+
+
+
+// const save = () => {
+//     if(String(input1.value).length <= 4 ){
+//         input1.classList.add('a1')
+//     }
+//     console.log(input1.value);
+// }
